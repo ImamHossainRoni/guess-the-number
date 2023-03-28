@@ -16,8 +16,8 @@ function StartGameScreen() {
                 </View>
 
                 <View style={styles.buttonContainer}>
-                   <PrimaryButton>Confirm</PrimaryButton>
-               </View>
+                    <PrimaryButton>Confirm</PrimaryButton>
+                </View>
             </View>
 
         </View>
