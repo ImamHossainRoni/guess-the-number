@@ -22,7 +22,7 @@ let minBoundary = 1;
 let maxBoundary = 100;
 
 function GameScreen({userNumber, onGameOver}) {
-    const initialGuess = generateRandomBetween(minBoundary, maxBoundary, userNumber);
+    const initialGuess = generateRandomBetween(1, 100, userNumber);
     const [currentGuess, setCurrentGuess] = useState(initialGuess);
     const [guessRounds, setGuessRounds] = useState([initialGuess]);
 
